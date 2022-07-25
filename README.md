@@ -5,12 +5,12 @@ O projeto é Dockerizado, então primeiramente deve-se rodar o seguinte comando 
 ‘docker-compose up -d’
 
 E em seguida:
-‘docker exec -it trybesmith bash ’
+‘docker exec -it projeto_xp bash ’
 
 Agora instale as dependências com:
 ‘npm install’
 
-Agora vamos rodar o Sequelize para a criar e popular as tabelas do banco de dados, primeiro devemos ir até a pasta **/src/database**, dentro do projeto e depois executar os seguintes comando no terminal:
+- Rodar o Sequelize para a criar e popular as tabelas do banco de dados, primeiro devemos ir até a pasta **/src/database**, dentro do projeto e depois executar os seguintes comando no terminal:
 ‘npx sequelize db:migrate’
 
 Depois:
